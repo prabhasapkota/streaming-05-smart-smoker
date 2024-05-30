@@ -1,1 +1,2 @@
-# streaming-05-smart-smoker
+# Module 6: streaming-05-smart-smoker
+
