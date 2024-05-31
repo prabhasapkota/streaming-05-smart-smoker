@@ -30,6 +30,9 @@ Date: 05/30/2024
 * Document your project works - display screenshots of your console and maybe the RabbitMQ console. 
 * If you only have a producer, you won't have a consumer showing messages yet, so you'll need to be creative. We'll build the consumers next.
 
+## Screenshot
+![Alt text](Screenshot.png)
+
 ## More Guidance
 * To be guided through the producer design, read https://nwmissouri.instructure.com/courses/60464/pages/module-5-dot-1-guided-producer-design?wrap=1
 * For a bit more guidance on the coding implementation, read Module Implementation https://nwmissouri.instructure.com/courses/60464/pages/module-5-dot-2-guided-producer-implementation?wrap=1
