@@ -11,6 +11,7 @@ import pprint
 import smtplib
 import sys
 import tomllib  # requires Python 3.11
+import datetime
 
 # Declare variables
 smoker_temp_queue = "01-smoker"
@@ -36,8 +37,13 @@ def CreateAndSendEmailAlert(email_subject: str, email_body: str):
     msg["From"] = outemail
     msg["To"] = outemail
     msg["Reply-to"] = outemail
-    msg["Subject"] = email_subject
-    msg.set_content(email_body)
+    
+
+    # Include current date and time in the subject and content
+    now = datetime.datetime.now()
+    msg["Subject"] = f"{email_subject} - {now.strftime('%Y-%m-%d %H:%M:%S')}"
+    msg.set_content(f"{email_body}\n\nTimestamp: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+
 
     print("========================================")
     print(f"Prepared Email Message: ")
