@@ -12,10 +12,10 @@ Date: 05/30/2024
 * Pika installed in .venv
 * Use Module 4 projects as examples
 * Configure.env.toml with appropriate email configuration settings
-   outgoing_email_host = "smtp.example.com"
-   outgoing_email_port = XXX
-   outgoing_email_address = "your_email@example.com"
-   outgoing_email_password = "your_password"
+   * outgoing_email_host = "smtp.example.com"
+   * outgoing_email_port = XXX
+   * outgoing_email_address = "your_email@example.com"
+   * outgoing_email_password = "your_password"
 
 
 
