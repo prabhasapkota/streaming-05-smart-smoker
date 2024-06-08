@@ -49,10 +49,10 @@ Date: 05/30/2024
 ## Screenshots
 ![Alt text](< Module_5.png>)
 ![Alt text](RabbitMQ.png)
-![Alt text](<Image for module 6-1.png>)
-![Alt text](<Image for module 6 - 3.png>)
-![Alt text](<Image for module 6 - 2.png>)
-![Alt text](<Image for module 6-4.png>)
+![Alt text](<module 6-image 1.png>)
+![Alt text](<module6-image 2.png>)
+![Alt text](module6-image3.png)
+![Alt text](<module6-image 4 .png>)
 ![Alt text](<email alerts.png>)
 
 
